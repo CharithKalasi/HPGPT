@@ -87,14 +87,13 @@ cd HPGPT
 ```bash
 python -m venv venv
 
-# Linux/Mac
+# Linux / Mac
 source venv/bin/activate   
 
-# Windows
+# Windows PowerShell
+.\venv\Scripts\Activate
 # (If activation fails, run this first to allow script execution)
-Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass venv\Scripts\activate
-```
-
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 ### 3. Install Dependencies  
 ```bash
 pip install -r requirements.txt
