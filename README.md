@@ -98,7 +98,7 @@ Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 
 ### 3. Install Dependencies  
 ```bash
-pip install -r requirements.tx
+pip install -r requirements.txt
 ```
 
 ### 4. Configure Database  
