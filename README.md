@@ -94,9 +94,11 @@ source venv/bin/activate
 .\venv\Scripts\Activate
 # (If activation fails, run this first to allow script execution)
 Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+```
+
 ### 3. Install Dependencies  
 ```bash
-pip install -r requirements.txt
+pip install -r requirements.tx
 ```
 
 ### 4. Configure Database  
